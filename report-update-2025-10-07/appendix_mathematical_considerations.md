@@ -3,7 +3,7 @@
 ## 1. Non-Standard Cryptographic Assumption (§7, Line 186)
 
 **Restated claim.** The protocol assumes “Power-Target Hardness” in asymmetric bilinear groups of prime order r: given bases {U_j} ⊂ 𝔾₂, {V_k} ⊂ 𝔾₁, their r-powers with unknown r, and an independent T ∈ 𝔾_T, it is infeasible to output T^r.
-**Sources.** Preliminary analysis: Analysis_report-preliminar-2025-10-07.md (Critical Issue #1). Updated analysis: report-update-2025-10-07/PVUGC-001-gt-xpdh-assumption.md (status 🔓 Open, mitigated by Multi-CRS AND-ing).
+**Sources.** Preliminary analysis: Analysis_report-preliminary-2025-10-07.md (Critical Issue #1). Updated analysis: report-update-2025-10-07/PVUGC-001-gt-xpdh-assumption.md (status 🔓 Open, mitigated by Multi-CRS AND-ing).
 
 **Key concerns.**
 - No known reduction to CDH, DDH, SXDH, XDH, DLIN, or q-type assumptions; hardness landscape is uncharted.
@@ -36,7 +36,7 @@
 ## 3. Independence Claim: Potential Violation (§6, Lines 131-132)
 
 **Restated claim.** Bases {U_j(x), V_k(x)} and target G_G16(vk,x) are fixed independently of armer randomness; armers cannot correlate their randomness with the basis structure.
-**Sources.** Analysis_report-preliminar-2025-10-07.md (Critical Issue #3). report-update-2025-10-07/PVUGC-003-independence-property.md (status 🔧 Improved; MUST clause added, proof pending).
+**Sources.** Analysis_report-preliminary-2025-10-07.md (Critical Issue #3). report-update-2025-10-07/PVUGC-003-independence-property.md (status 🔧 Improved; MUST clause added, proof pending).
 
 **Key concerns.**
 - Shared randomness between Groth16 and GS CRS may create algebraic dependencies; independence must be proven over the joint CRS distribution.
@@ -53,7 +53,7 @@
 ## 4. PoCE-A Soundness: Malicious Armer Detection Gaps (§5, §8)
 
 **Restated claim.** PoCE-A proves knowledge of (ρᵢ, sᵢ) tied to published masks and adaptor share, ensuring correctness of armer contributions.
-**Sources.** Analysis_report-preliminar-2025-10-07.md (High Severity Issue #4). report-update-2025-10-07/PVUGC-004-poce-soundness.md (status 🔓 Open; publication SHOULD clause added).
+**Sources.** Analysis_report-preliminary-2025-10-07.md (High Severity Issue #4). report-update-2025-10-07/PVUGC-004-poce-soundness.md (status 🔓 Open; publication SHOULD clause added).
 
 **Key concerns.**
 - Ciphertext ctᵢ is not bound to (ρᵢ, sᵢ); PoCE-A allows semantically invalid encryptions that pass algebraic checks.
@@ -70,7 +70,7 @@
 ## 5. Context Binding: Incomplete Binding and Replay Risks (§3)
 
 **Restated claim.** Layered hashes (ctx_core, arming_pkg_hash, presig_pkg_hash) bind all artifacts to a unique execution context.
-**Sources.** Analysis_report-preliminar-2025-10-07.md (High Severity Issue #5). report-update-2025-10-07/PVUGC-005-context-binding.md (status 🔧 Improved; layered hash tags defined, testing outstanding).
+**Sources.** Analysis_report-preliminary-2025-10-07.md (High Severity Issue #5). report-update-2025-10-07/PVUGC-005-context-binding.md (status 🔧 Improved; layered hash tags defined, testing outstanding).
 
 **Key concerns.**
 - ctx_core omits GS CRS hash; contexts differing only in CRS collide, enabling reinterpretation of masks under malicious CRS.
@@ -87,7 +87,7 @@
 ## 6. Degenerate Values: Insufficient Edge Case Coverage (§6, Lines 146-148)
 
 **Restated claim.** Validation rules eliminate algebraic degeneracy in scalars and group elements used for masks and adaptor shares.
-**Sources.** Analysis_report-preliminar-2025-10-07.md (High Severity Issue #6). report-update-2025-10-07/PVUGC-006-degenerate-values.md (status ✅ Resolved; degenerate guards codified).
+**Sources.** Analysis_report-preliminary-2025-10-07.md (High Severity Issue #6). report-update-2025-10-07/PVUGC-006-degenerate-values.md (status ✅ Resolved; degenerate guards codified).
 
 **Key concerns.**
 - Scalars ρᵢ = 1 reveal Mᵢ = G_G16; sᵢ = 0 nullifies α; small-order scalars circumvent prime-order guarantees.

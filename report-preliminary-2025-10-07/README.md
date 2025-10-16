@@ -191,7 +191,7 @@ Each flaw has a dedicated file with:
 ## Document Structure
 
 ```
-report-preliminar-2025-10-07/
+report-preliminary-2025-10-07/
 ├── README.md                                 ← You are here
 ├── 00-INDEX.md                              ← Quick reference table
 ├── PVUGC-001-power-target-hardness.md       ← Critical flaws

@@ -342,6 +342,12 @@ The PVUGC protocol has made **substantial security improvements** in v2.0. The a
 
 ---
 
+## Supporting Documents
+
+- For deep mathematical analysis of the cryptographic primitives and assumptions, refer to the included [`appendix_mathematical_considerations.md`](appendix_mathematical_considerations.md).
+
+---
+
 ## Contact & Feedback
 
 This is an updated analysis based on PVUGC-2025-10-07.md. For questions, additional analysis requests, or to report updates on remediation efforts, please refer to the original analysis request.

@@ -2,7 +2,8 @@
 
 **Report Version:** 1.0 (Preliminary)
 **Date:** 2025-10-07
-**Analyzed Document:** `PVUGC-breakthrough.md`
+**Analyzed Document:** `PVUGC-2025-10-05.md`
+**Updated Analysis:** See [`report-update-2025-10-07/`](../report-update-2025-10-07/) for analysis based on production specifications PVUGC-2025-10-05.md and PVUGC-2025-10-20.md.
 **Protocol:** PVUGC (Publicly Verifiable Universal General Computation)
 **Analysis Type:** Cryptographic Security Review (Initial Pass)
 **Analyst:** Claude Code (cryptography-expert agent)

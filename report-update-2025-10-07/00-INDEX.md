@@ -3,7 +3,7 @@
 **Report Date:** 2025-10-07
 **Report Version:** 2.0 (Updated)
 **Protocol:** PVUGC (Publicly Verifiable Universal General Computation)
-**Analyzed Document:** PVUGC-2025-10-07.md (v2 with Multi-CRS AND-ing)
+**Analyzed Document:** PVUGC-2025-10-20.md §1 Introduction (v2 with Multi-CRS AND-ing)
 **Total Flaws Identified:** 10
 
 ---

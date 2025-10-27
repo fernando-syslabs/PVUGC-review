@@ -2,7 +2,7 @@
 
 **Report Version:** 2.0 (Updated)
 **Date:** 2025-10-07
-**Analyzed Document:** `PVUGC-2025-10-07.md` (v2 with Multi-CRS AND-ing)
+**Analyzed Document:** `PVUGC-2025-10-20.md §1 Introduction` (v2 with Multi-CRS AND-ing)
 **Protocol:** PVUGC (Publicly Verifiable Universal General Computation)
 **Analysis Type:** Cryptographic Security Review (Updated Analysis)
 **Analyst:** Claude Code (cryptography-expert agent)
@@ -350,12 +350,12 @@ The PVUGC protocol has made **substantial security improvements** in v2.0. The a
 
 ## Contact & Feedback
 
-This is an updated analysis based on PVUGC-2025-10-07.md. For questions, additional analysis requests, or to report updates on remediation efforts, please refer to the original analysis request.
+This is an updated analysis based on PVUGC-2025-10-20.md §1 Introduction. For questions, additional analysis requests, or to report updates on remediation efforts, please refer to the original analysis request.
 
 ---
 
 **Version History:**
-- **v1.0 (2025-10-07):** Initial preliminary report (based on PVUGC-breakthrough.md)
-- **v2.0 (2025-10-07):** Updated report (based on PVUGC-2025-10-07.md with Multi-CRS AND-ing)
+- **v1.0 (2025-10-07):** Initial preliminary report (based on PVUGC-2025-10-05.md)
+- **v2.0 (2025-10-07):** Updated report (based on PVUGC-2025-10-20.md §1 Introduction with Multi-CRS AND-ing)
 
 **Last Updated:** 2025-10-07

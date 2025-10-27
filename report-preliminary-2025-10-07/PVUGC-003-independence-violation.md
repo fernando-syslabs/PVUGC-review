@@ -282,8 +282,13 @@ Tasks:
 
 #### 5. Add Setup Section to Protocol
 **Timeline:** 1 week
+**Status (2025-10-26):** ✅ IMPLEMENTED in PVUGC-2025-10-05.md
+- Span Independence (§3, line 90)
+- Production Profile (§3, lines 92-96)
+- CRS ceremony requirements (§7, line 213)
 
-Add new section to PVUGC-breakthrough.md:
+**Original recommendation:** Add new section to PVUGC-2025-10-05.md:
+
 ```markdown
 ## § 2.5: Setup Ceremony and Independence Guarantees
 

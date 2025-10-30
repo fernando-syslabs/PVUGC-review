@@ -5,12 +5,14 @@
 **License:** [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 
 ## Quick Start
-- Read [`PVUGC-2025-10-20.md §1 Introduction`](PVUGC-2025-10-20.md) for the protocol specification that the reviews target.
-- Use [`report-peer_review-2025-10-26/README.md`](report-peer_review-2025-10-26/README.md) for the current executive summary; it supersedes the v2.0 update and preliminary reports where noted.
-- Refer to [`report-peer_review-2025-10-26/00-INDEX.md`](report-peer_review-2025-10-26/00-INDEX.md) for live status, severities, and deep links into each peer‑reviewed issue brief.
+- Read [`PVUGC-2025-10-27.md §1 Introduction`](PVUGC-2025-10-27.md) for the current target specification (v2.7).
+- Use [`report-compliance_audit-2025-10-29/README.md`](report-compliance_audit-2025-10-29/README.md) for the current v4.0 compliance audit summary and [`00-INDEX.md`](report-compliance_audit-2025-10-29/00-INDEX.md) for finalized validation status.
+- Refer to [`report-peer_review-2025-10-26/README.md`](report-peer_review-2025-10-26/README.md) for the v3.0 peer‑review executive summary and [`00-INDEX.md`](report-peer_review-2025-10-26/00-INDEX.md) for historical severities and statuses.
 
 ## Document Map
-- [`report-peer_review-2025-10-26/`](report-peer_review-2025-10-26) – Version 3.0 peer review package (current). Each PVUGC-00X.md file contains the peer‑reviewed issue report; see [00-INDEX.md](report-peer_review-2025-10-26/00-INDEX.md) for status.
+- [`report-compliance_audit-2025-10-29/`](report-compliance_audit-2025-10-29) – v4.0 Standards Compliance Validation (current compliance status). See [README.md](report-compliance_audit-2025-10-29/README.md) and [00-INDEX.md](report-compliance_audit-2025-10-29/00-INDEX.md).
+- [`RECOMMENDED-STANDARDS.md`](RECOMMENDED-STANDARDS.md) – Protocol‑specific validated recommendations (provisional), promoted        from the v4.0 compliance audit.
+- [`report-peer_review-2025-10-26/`](report-peer_review-2025-10-26) – Version 3.0 peer review package. Each PVUGC-00X.md file contains the peer‑reviewed issue report; see [00-INDEX.md](report-peer_review-2025-10-26/00-INDEX.md) for status.
 - [`report-update-2025-10-07/`](report-update-2025-10-07) – Version 2.0 review package (superseded by v3.0). Each PVUGC-00X-*.md file revisits a specific issue, tracking whether it remains open, improved, or resolved.
 - [`report-preliminary-2025-10-07/`](report-preliminary-2025-10-07) – Original assessment set. Compare with the update to trace how each flaw evolved from initial discovery.
 - [`report-peer_review-2025-10-26/appendix_mathematical_considerations_v2.md`](report-peer_review-2025-10-26/appendix_mathematical_considerations_v2.md) – Peer-reviewed companion with Mathematician #2's validations and enhancements.
@@ -25,9 +27,9 @@
 - When diving deeper on critical items, pair the issue brief with the relevant section in [`appendix_mathematical_considerations_v2.md`](report-peer_review-2025-10-26/appendix_mathematical_considerations_v2.md) for technical obligations and suggested proof strategies.
 
 ## Suggested Reading Order
-1. [`PVUGC-2025-10-20.md §1 Introduction`](PVUGC-2025-10-20.md) (specification baseline)
-2. [`report-peer_review-2025-10-26/README.md`](report-peer_review-2025-10-26/README.md) (current executive summary)
-3. Issue briefs in [`report-peer_review-2025-10-26/`](report-peer_review-2025-10-26), prioritising open critical/high items (PVUGC-001–011)
+1. [`PVUGC-2025-10-27.md §1 Introduction`](PVUGC-2025-10-27.md) (current target specification, v2.7)
+2. [`report-compliance_audit-2025-10-29/README.md`](report-compliance_audit-2025-10-29/README.md) (v4.0 compliance audit summary) and [`00-INDEX.md`](report-compliance_audit-2025-10-29/00-INDEX.md) (finalized validation status)
+3. [`report-peer_review-2025-10-26/README.md`](report-peer_review-2025-10-26/README.md) (v3.0 executive summary) and issue briefs in [`report-peer_review-2025-10-26/`](report-peer_review-2025-10-26)
 4. Matching files in [`report-update-2025-10-07/`](report-update-2025-10-07) and [`report-preliminary-2025-10-07/`](report-preliminary-2025-10-07) for historical context
 5. Supporting materials: [`appendix_mathematical_considerations_v2.md`](report-peer_review-2025-10-26/appendix_mathematical_considerations_v2.md)
 
@@ -38,7 +40,7 @@
 This review project analyzes and builds upon the following foundational documents by **sidhujag**, sourced from [this HackMD document](https://hackmd.io/@sidhujag/BJeoZ0Ohxe):
 
 - **PVUGC (Mainnet-Today, Prove-to-Sign)** ([`PVUGC-2025-10-05.md`](PVUGC-2025-10-05.md))
-- **Proof-Agnostic Verifiable Unique Group Commitments (PVUGC)** ([`PVUGC-2025-10-20.md`](PVUGC-2025-10-20.md))
+- **Proof-Agnostic Verifiable Unique Group Commitments (PVUGC)** ([`PVUGC-2025-10-27.md`](PVUGC-2025-10-27.md))
 
 ---
 

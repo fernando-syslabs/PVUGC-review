@@ -19,7 +19,7 @@ This document defines authoritative, external standards used to validate protoco
 
 ### How to Use This Document
 
-- **Security reviewers**: Reference specific sections when validating protocol claims (see [debate-plan-v3.md](./debate-plan-v3.md) for validation methodology)
+- **Security reviewers**: Reference specific sections when validating protocol claims
 - **Implementation teams**: Use as compliance checklist for normative requirements
 - **Auditors**: Map target protocol specifications to these standards using a separate compliance guide (kept outside this document)
 - **Future reviews**: Extend this framework as new standards emerge or protocols evolve
